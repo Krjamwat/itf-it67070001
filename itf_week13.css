@@ -43,7 +43,7 @@
 }
 .name {
     color: white;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     height: 85vh;
@@ -54,4 +54,8 @@
     background-color: rgb(195, 180, 180);
     height: 2.7rem;
     text-align: center;
+}
+.name button {
+    text-decoration: none;
+    font-size: 40px;
 }
