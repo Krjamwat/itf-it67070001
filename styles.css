@@ -5,7 +5,9 @@ body {
     align-items: center;
     padding: 20px;
 }
-
+.input {
+    display: flex;
+}
 .avatar {
     width: 183px;
     height: 183px;
@@ -41,12 +43,19 @@ body {
 }
 
 input, button {
-    margin: 5px;
+    margin: 10px;
     padding: 5px;
 }
-
+input {
+    background-color: #ddd;
+    border-color: #ddd;
+}
 button {
     cursor: pointer;
+    background-color: rgb(103, 103, 255);
+    border-radius: 20%;
+    border-color: rgb(103, 103, 255);
+    color: white;
 }
 
 button:hover {
@@ -56,7 +65,7 @@ button:hover {
 table {
     border-collapse: collapse;
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
 }
 
 th, td {
@@ -66,5 +75,5 @@ th, td {
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #ddd;
 }
