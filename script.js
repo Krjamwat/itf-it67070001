@@ -1,4 +1,4 @@
-const DEFAULT_AVATAR_URL = 'https://cdn.nba.com/headshots/nba/latest/1040x760/202710.png';
+const DEFAULT_AVATAR_URL = 'https://m.media-amazon.com/images/M/MV5BOWUzNzIzMzQtNzMxYi00OWRiLTlhZjEtZTRjYWVkYzI4ZjMwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg';
 
 let contacts = [];
 
@@ -57,5 +57,5 @@ function setDefaultAvatar() {
 window.onload = setDefaultAvatar;
 
 document.getElementById('username').addEventListener('click', function() {
-    window.location.href = 'https://github.com/Makufff';
+    window.location.href = 'https://github.com/Krjamwat';
 });
